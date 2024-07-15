@@ -7,6 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+    <!-- fontaswome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        .hover-success:hover {
+            color: #28a745 !important; 
+        }
+    </style>
 </head>
 <body style="min-width: 100vw;">
     <nav class="navbar navbar-expand" style="background-color: #3db36b; letter-spacing: .125rem; font-family: Arimo, sans-serif;">
@@ -40,24 +50,24 @@
                 </button>
                 <div class="collapse navbar-collapse text-success" style="font-family: Arimo, sans-serif;" id="navbarsupportedcontent">
                     <ul class="navbar-nav d-flex text-success fw-bold" style="letter-spacing: .125rem; font-size: .75rem;">
-                        <il class="nav-item" style="padding-left: 100px;">
-                            <a class="nav-link text-uppercase text-dark" data-toggle="smooth-scrooll" href="#">About</a>
-                        </il>
-                        <il class="nav-item" style="padding-left:35px">
-                            <a class="nav-link text-uppercase text-dark" data-toggle="smooth-scrooll" href="#">Services</a>
-                        </il>
-                        <il class="nav-item" style="padding-left: 35px">
-                            <a class="nav-link text-uppercase text-dark" data-toggle="smooth-scrooll" href="#">Team</a>
-                        </il>
-                        <il class="nav-item" style="padding-left: 25px">
-                            <a class="nav-link text-uppercase text-dark" data-toggle="smooth-scrooll" href="#">Case results</a>
-                        </il>
-                        <il class="nav-item" style="padding-left: 26px">
-                            <a class="nav-link text-uppercase text-dark" data-toggle="smooth-scrooll" href="#">Testimonials</a>
-                        </il>
-                        <il class="nav-item" style="padding-left: 25px">
-                            <a class="nav-link text-uppercase text-dark" data-toggle="smooth-scrooll" href="#">Contacts</a>
-                        </il>
+                        <li class="nav-item" style="padding-left: 100px;">
+                            <a class="nav-link text-uppercase active text-success hover-success" data-toggle="smooth-scroll" href="#about">About</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 35px;">
+                            <a class="nav-link text-uppercase active text-dark hover-success" data-toggle="smooth-scroll" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 35px;">
+                            <a class="nav-link text-uppercase text-dark hover-success" data-toggle="smooth-scroll" href="#">Team</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 25px;">
+                            <a class="nav-link text-uppercase text-dark hover-success" data-toggle="smooth-scroll" href="#">Case results</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 26px;">
+                            <a class="nav-link text-uppercase text-dark hover-success" data-toggle="smooth-scroll" href="#">Testimonials</a>
+                        </li>
+                        <li class="nav-item" style="padding-left: 25px;">
+                            <a class="nav-link text-uppercase text-dark hover-success" data-toggle="smooth-scroll" href="#">Contacts</a>
+                        </li>
                     </ul>
                     <div class="navbar-spacer " style="padding-left: 30px">
                         <a class="btn btn-outline-success text-nowrap fw-bold pt-3 justify-content-center text-uppercase " style="text-align: center; font-size: 14px; width: 145px; height: 50px; border-radius: 1px; border-color:#3db36b" href="#" data-toggle="smooth-scrooll" target="_blank">BOOK NOW</a>
@@ -66,34 +76,104 @@
             </nav>
         </div>
     </div>
-    <div class="bg-dark">
-        <div class="d-flex container justify-content-between pt-5 pb-5"style="font-family: Roboto, sans-serif;">
-            <div class="text-white col-6 " style="margin-left: 80px;">
+    <div class="bg-dark pb-4" style="height: 100wh;">
+        <div class="d-flex container justify-content-between py-4"style="font-family: Roboto, sans-serif;">
+            <div class="text-white col-6 " style="margin-left: 80px; padding-top: 50px;">
                 <p class=>PROVIDING SERVICES SINCE 1992</p>
-                <h1 class="fw-bold" style="font-size: 70px;">Small<br>Business<br>Attorney</h1>
+                <h1 class="fw-bold" style="font-size: 70px;letter-spacing: -2px; font-family:  Roboto, sans-serif;">Small<br>Business<br>Attorney</h1>
             </div>
-            <div class="card border-0 border-success text-left mx-auto " style="width: 26rem; height: 29rem; border-radius: 0px;">
+            <div class="card border-0 border-success text-left mx-auto mt-4 " style="width: 26rem; height: 29rem; border-radius: 0px;">
                 <div class="card-bady text-body p-19 p-md-20"style="padding:8px 40px">
-                    <h2 class="fw-bold pt-5 ms-4">Get a Free<br> Consultation</h2>
+                    <h1 class="fw-bold pt-5 ms-4">Get a Free<br> Consultation</h2>
                     <form class="card-border-0">
-                        <div class="form-group">
-                            <input   class="form-control border-success rounded-0" placeholder="First name">
-                            <input   class="form-control mt-3 border-success rounded-0" placeholder="Mobile phone">
+                        <div class="form-group justify-content-center" style="width: 300px;">
+                            <input   class="form-control border-success rounded-0 mt-4  " placeholder="First name">
+                            <input   class="form-control mt-4 border-success rounded-0" placeholder="Mobile phone">
                         </div>
-                        <div class="form-group form-check fs-2">
-                            <div class="custom-checkbox-wrap checked" style="-webkit-padding-start: px;">
-                                <input type="checkbox" style="margin-left: -50px;" class="custom-checkbox" id="examplecheck1" checked="checked">
-                                <div class="custom-checkbox-presenter">
+                        <div class="form-group form-check">
+                            <div class="custom-checkbox-wrap checked" style="margin-top: -70px;">
+                                <input type="checkbox" style="margin-left: -30px; accent-color:green
+                                " class="custom-checkbox" id="examplecheck1 " checked="checked ">
+                                <label class="form-check-label" style="position: relative; font-size: 15px; padding-top: 100px; word-spacing:-2px; 
+                                 height: 1rem; cursor: pointer text-success " for="examplecheck1">
+                                I've read and agree with the
+                                <a href="#" class="text-success">Terms & Policy</a>
+                                </label>
+                                <div class="custom-checkbox-presenter text-success">
                                 </div>
                             </div>
-                            <label class="form-check-label" style="position: relative; font-size: 15px; word-spacing:-2px; 
-                            height: 1rem; cursor: pointer text-success" for="examplecheck1">
-                                I've read and agree with the 
-                                <a href="#">Terms & Policy</a>
-                            </label>
+                            <button class="btn btn-success w-100 fw-bold mt-4" style="font-size: 10px; letter-spacing: 3px; font-family: Arimo, sans-serif; border-radius: 1px; padding-right: 20px; margin-left: -30px;">GET A CONSULTATION</button>
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white">
+        <div class="container">
+            <div class=" d-flex text-center text-lg-left pr-0 pr-lg-10" style="padding-bottom: 20px;"  >
+                <div class="col-5" style="font-size: 15px; padding-top: 100px; font-family: Roboto, sans-serif;">
+                    <h1 class="fw-bold" style="padding-right: 190px; font-size: 50px;">Welcome</h1>
+                    <div style="font-size: 20px; letter-spacing: -1px; padding-left: 40px; color: #9c9696b3">
+                        Attorney for Businesses,Professionals & creative People
+                    </div>
+                    <p class="w-100 pt-4" style="font-size: 16.5px; text-align: left; margin-left: 70px;">
+                        This is a great space to write long text about your company and your services. You can use this space to go into a little more detail about your company. Talk about your team and what services you provide. Tell your visitors the story of how you came up with the idea for your business and what makes you different from your competitors. Make your company stand out and show your visitors who you are.
+                    </p>
+                    <button class="text-uppercase text-white bg-success" style="width: 19rem; height: 4rem; margin-right: 90px;">get a free Consultation</button>
+                </div>
+                <div class="col-6 " style="padding-top: 5rem; padding-left: 115px;">
+                    <img src="image/bootstrap task 1.jpg" style="width: 550px; height: 350px; margin-bottom: 50px;" alt="Welcome img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container "  style="background-color: #f9f9f9 ;">
+        <div class="d-flex" style="font-family:  Roboto, sans-serif;">
+            <div class="mt-5" style="margin-left: 70px; padding-top: 70px;">
+                <p class="text-uppercase" style="color: rgb(178, 185, 185); font-size: 15px; font-weight: 600;">areas of practices</p>
+                <h1 style="font-size: 50px; margin-top: -1rem; font-weight: 600 ;">Services</h1>
+            </div>
+            <div class="d-none d-sm-block" style="margin-top: 10rem;">
+                <div class="btn-group  d-flex" style="padding-left: 52rem;">
+                    <button type="button" class="btn btn-light btn-square disabled" style="color: rgb(169, 172, 175);" data-bs-toggle="card-slider" data-bs-target="#card-slider-1" data-action="prevlide"disabled>
+                        <i class='bx bx-caret-left'></i>
+                    </button>
+                    <div class="btn-group ">
+                        <button type="button" class="btn btn-light btn-square " data-bs-toggle="card-slider" data-bs-target="#card-slider-1" data-action="nextslide">
+                            <i class='bx bx-caret-right'></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="d-flex" style="font-family: Roboto, sans-serif;">
+                <article class="card-slider-item is-selected" style="position: absolute;left: 0px;padding-left: 100px; width: 38rem;">
+                    <div class="pt-5 card-body p-10 p-md-10" style="margin-left: 8rem;">
+                        <svg width="73" height="48" viewBox="0 0 73 48" xmlns="http://www.w3.org/2000/svg">
+                            <g fill-rule="nonzero" fill="none">
+                                <path d="M.146 24.855c.178.356.474.623.845.741l9.274 3.185c.163.06.31.074.474.074.607 0 1.185-.385 1.392-.992l7.274-21.23.37.134a7.523 7.523 0 0 0 5.779-.326l.903-.445c1.082-.518 2.341-.607 3.467-.207l16.919 5.837c-.178.652-.519 1.407-1.112 1.822-.681.474-1.733.474-3.11 0l-7.586-2.593a1.467 1.467 0 0 0-1.17.104 1.5 1.5 0 0 0-.726.919c-.015.044-1.082 3.955-4.37 5.718-2.075 1.111-4.667 1.14-7.704.104-.77-.267-1.6.148-1.867.918-.267.77.148 1.6.919 1.867 1.777.607 3.466.919 5.037.919 1.822 0 3.496-.415 5.022-1.23 2.963-1.6 4.533-4.356 5.26-6.06l6.221 2.134c2.311.785 4.237.667 5.734-.37 2.355-1.63 2.518-4.815 2.533-5.17a1.5 1.5 0 0 0-.993-1.438L30.857 3.033a7.513 7.513 0 0 0-5.718.356l-.904.444a4.589 4.589 0 0 1-3.511.208l-1.496-.534a.983.983 0 0 0-.282-.133L9.716.159c-.77-.267-1.6.148-1.866.919L.072 23.744c-.118.356-.089.756.074 1.111zM10.161 3.404l6.489 2.222-6.815 19.896L3.346 23.3l6.815-19.896z" fill="#ADB9BF"></path>
+                                <path d="M15.42 38.292c.726 1.482 2.178 2.341 3.719 2.4 0 .637.148 1.29.43 1.882a4.227 4.227 0 0 0 2.474 2.178c.459.163.933.237 1.392.237.652 0 1.289-.148 1.882-.445l.77-.385c.06.445.193.904.4 1.333a4.227 4.227 0 0 0 2.474 2.178c.46.163.933.237 1.393.237.651 0 1.289-.148 1.881-.444L49.08 39.21a43.37 43.37 0 0 0 10.31-7.037l3.764-3.452 8.607-4.207a1.459 1.459 0 0 0 .667-1.956L61.938 1.033a1.435 1.435 0 0 0-.844-.74 1.421 1.421 0 0 0-1.126.074l-8.8 4.31a1.459 1.459 0 0 0-.666 1.956l10.044 20.534-3.11 2.859a40.925 40.925 0 0 1-9.616 6.563L30.976 44.84a1.362 1.362 0 0 1-1.052.059 1.395 1.395 0 0 1-.785-.696 1.362 1.362 0 0 1-.06-1.052c.12-.341.37-.623.697-.785l9.422-4.608a1.459 1.459 0 0 0 .667-1.955 1.459 1.459 0 0 0-1.956-.667l-9.422 4.607-4.444 2.178a1.362 1.362 0 0 1-1.052.06 1.395 1.395 0 0 1-.786-.697 1.362 1.362 0 0 1-.059-1.052c.119-.34.37-.622.697-.785l13.51-6.607a1.459 1.459 0 0 0 .667-1.956 1.459 1.459 0 0 0-1.955-.667L19.88 37.641a1.392 1.392 0 0 1-1.837-.623 1.362 1.362 0 0 1-.06-1.051c.119-.341.37-.623.697-.786l5.985-2.933 7.778-3.807a1.459 1.459 0 0 0 .666-1.956 1.459 1.459 0 0 0-1.955-.667L19.05 31.744a1.392 1.392 0 0 1-1.837-.622 1.392 1.392 0 0 1 .622-1.837l6.43-3.14a1.459 1.459 0 0 0 .666-1.956 1.459 1.459 0 0 0-1.955-.667l-6.43 3.14a4.302 4.302 0 0 0-.755 7.26 4.235 4.235 0 0 0-.37 4.37zm38.356-31.63l6.163-3.021 9.244 18.888-6.163 3.023-9.244-18.89z" fill="#3DB36B"></path>
+                            </g>
+                        </svg>
+                        <h1 class=" pt-3 fw-bold ">Business Law</h1>
+                        <p class="pt-3 ps-1" style="font-size: 16px;">Whether you're in an early stsrt-up phase or preparing to go public, Romano Law understands the needs of businesses and owners.</p>
+                        <a href="#" class="btn btn-link text-success" style="margin-right: 20px;">LEARN MORE</a>
+                    </div>
+                </article>
+                <article class="card-slider-item is-selected" style="position: absolute;left: 0px;padding-left: 250px; width: 38rem;">
+                    <div class="pt-5 card-body p-19 p-md-20" style="margin-left:20rem;">
+                        <svg width="53" height="48" viewBox="0 0 53 48" xmlns="http://www.w3.org/2000/svg">
+                            <g fill-rule="nonzero" fill="none">
+                                <path d="M22.784 46.897c0-.592-.474-1.066-1.066-1.066H6.856a4.72 4.72 0 0 1-4.714-4.714V10.391h6.457v4.014c0 .592.474 1.066 1.066 1.066.592 0 1.065-.474 1.065-1.066v-4.014h12.84v4.014c0 .592.473 1.066 1.065 1.066s1.065-.474 1.065-1.066v-4.014h6.458v2.099c0 .592.473 1.065 1.065 1.065s1.066-.473 1.066-1.065V9.326c0-.592-.474-1.066-1.066-1.066H25.69C25.507 3.708 21.75.048 17.144.048S8.782 3.697 8.6 8.26H1.065C.474 8.26 0 8.734 0 9.326v31.791a6.848 6.848 0 0 0 6.845 6.845h14.863a1.07 1.07 0 0 0 1.076-1.065zm-5.64-44.718c3.423 0 6.232 2.702 6.415 6.081H10.73c.183-3.38 2.992-6.08 6.414-6.08z" fill="#ADB9BF"></path>
+                                <path d="M31.835 21.498v1.216H25.97c-.592 0-1.066.473-1.066 1.065v18.695a5.48 5.48 0 0 0 5.478 5.478h16.886a5.48 5.48 0 0 0 5.478-5.478V23.779c0-.592-.473-1.065-1.065-1.065h-5.866v-1.216c0-3.853-3.132-6.996-6.995-6.996-3.853.011-6.985 3.143-6.985 6.996zm12.915 7.06c.592 0 1.065-.474 1.065-1.066v-2.647h4.8v17.629a3.35 3.35 0 0 1-3.347 3.347H30.382a3.35 3.35 0 0 1-3.347-3.347v-17.63h4.8v2.648c0 .592.474 1.066 1.065 1.066.592 0 1.066-.474 1.066-1.066v-2.647h9.718v2.647c0 .592.474 1.066 1.066 1.066zm-1.066-7.06v1.216h-9.718v-1.216a4.873 4.873 0 0 1 4.864-4.865c2.67.01 4.854 2.185 4.854 4.865z" fill="#3DB36B"></path>
+                            </g>
+                        </svg>
+                        <h1>Entertainment Law</h1>
+                    </div>
+                   
+                </article>    
             </div>
         </div>
     </div>
